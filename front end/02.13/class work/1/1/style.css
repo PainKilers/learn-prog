@@ -1,0 +1,13 @@
+Body{
+    background-color: azure;
+}
+
+h1{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+p{
+    margin-left: 20px;
+    font-weight: bold;
+}

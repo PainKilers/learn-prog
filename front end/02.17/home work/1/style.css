@@ -1,0 +1,21 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+div > div:nth-child(odd){
+    background-color: black;
+}
+
+div > div:nth-child(even){
+    background-color: blue;
+}
+
+div > div:hover {
+    background-color: orange
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- title -->
+        <title>Registracijos forma</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>Registracija į kursus</h1>
+        <hr>
+                <!--teksto vieta-->
+        <p>Vardas: <input type="text" placeholder="Iveskite savo varda"></p>
+
+        <h3>Programavimo kalba:</h3>
+                <!--pasirinkimo forma kuri leidzia pasirinkti tik viena-->
+        <form>
+        <label>C++</label> <input type="radio" name="kalba">
+        <br>
+        <label>PHP</label> <input type="radio" name="kalba">
+        <br>
+        <label>Python</label> <input type="radio" name="kalba">
+        </form>
+
+        <h3>Papildoma Informacija</h3>
+                <!--teksto plotas-->
+        <textarea rows="4" cols="50" placeholder="Pvz : Turite C++ programavimo patirties"></textarea>
+        <br>
+        <br>
+                <!--inputas slaptazodziui-->
+        <label for="pass"><b>Slaptažodis:</b></label>
+         <br>
+          <input type="password" placeholder="***********" id="pass" name="password">
+        <label for="numeriai"></label>
+                <!--Pasirinkimai-->
+        <select id="numeriai">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+           <br>
+           <br>
+           <button>siųsti</button>
+    </body>
+</html>
