@@ -1,0 +1,27 @@
+.border {
+    padding: 15px;
+}
+.media {
+    background-color: #D8F7E1;
+    border: 1px solid;
+    border-color: #AAE7BC;
+    height: 50px;
+}
+.title {
+    font-size: 15px;
+    color: #01327E;
+}
+p{
+    font-size: 14px;
+    color: #008120;
+    margin-bottom: 0px !important;
+}
+.image {
+    background: white;
+    margin-top: 10px;
+    height: auto; 
+    width: auto; 
+    max-width: 30px; 
+    max-height: auto;
+    opacity: 0.5;
+}

@@ -1,0 +1,15 @@
+div{
+    padding: 5px;
+    background-color: #FFDEAD;
+    width: 320px;
+}
+
+p {
+    border: 2px solid;
+    border-color: #FF0000;
+    background-color: #000000;
+    color: #B93B00;
+    width: 300px;
+    padding: 10px;
+    text-indent: 20px;
+}
