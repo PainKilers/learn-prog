@@ -1,4 +1,4 @@
-let array = [
+ let array = [
         {
         Mantas: 200,
         Paulius: 300,
@@ -6,7 +6,6 @@ let array = [
         }
     ];
 
-    array.forEach(res => {
-        Object.entries(res).forEach(([key, value]) => {document.write(key + " : " + value + "<br>");
-        })
-    })
+for (let key in array[0]) {
+  document.write("key : " + key + "  =>value: " + array[key] + "<br>");
+}
