@@ -1,0 +1,32 @@
+textarea {
+    width: 800px;
+    height: 17px;
+    background-color: #fff;
+    resize: none;
+    margin-left: 75px;
+    margin-right: -300px;
+}
+input {
+    width: 800px;
+    height: 17px;
+    margin-left: 100px;
+    margin-right: -300px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 400;
+    cursor: pointer;
+}
+label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+}
